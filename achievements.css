@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gentium Plus', serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(17, 16, 16) !important;
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden ;
+}
+.navbar{
+    color: white !important;
+  }
+
+  .navbar-brand{
+    color: white !important;
+    font-size: 35px !important;
+  }
+  .container-fluid{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container-fluid a{
+    color: white !important;
+    font-size: 22px !important;
+    transition: all ease-in-out 0.3s;
+    /* font-weight: 600; */
+
+    
+  }
+  .nav a:hover{
+    color: gray !important;
+    transform: translateY(-3px);
+  }
+
+  .institution-header {
+    display: flex;
+    align-items: center; /* Changed from flex-start to center */
+    gap: 18px;
+}
+
+.institution-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    box-shadow: white 21px 5px 0px rgba(255, 255, 255);
+}
+
+.institution-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Added to vertically center the text */
+}
+
+.institution-text h2 {
+    margin-top: 0;
+}
+
+.Education{
+    color: white;
+    z-index: 99;
+}
+
+  .Education-content p{
+    color: white !important;
+    font-size: 19px;
+}
+
+.Sections {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.description{
+    padding: 2px;
+    width: 98%;
+}
+
+.certificates {
+    margin: 25px 5px;
+}
+ ul {
+    text-decoration: none ;
+    list-style-type:none;
+    color: white;
+
+}
+.certificates li a{
+    transition: all ease-in-out 0.3s;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    word-spacing: 5px;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
+
+.certificates li a:hover {
+    color: rgba(100, 164, 242, 0.921);
+    text-decoration: none;
+    transform: translateY(-3px);
+}
+
+.card {
+    position: relative;
+    width: 60%;
+    min-height: 200px;
+    max-height: auto;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: 20px 20px 60px #333232, -20px -20px 60px #000000;
+    border: 2px solid rgb(255, 255, 255) ;
+}
+
+.card a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.card h2{
+    color: white;
+}
+.heading-Education{
+    /* font-size: 35px; */
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 55%;
+}
+
+.heading-achievements {
+    font-weight: 900;
+    color: white;
+    justify-content:center;
+    display: flex-start;
+    text-align: center;
+    font-size: 25px;
+}
+.google-dork a {
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items:flex-start;
+    text-align: left !important;
+    width: 35%;
+}
+.google-dork a:hover{
+    text-decoration: none;
+    color: rgba(100, 164, 242, 0.921);
+}
+
+.card.google-dork {
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card.google-dork .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo-heading-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.institution-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    box-shadow: white 21px 5px 0px rgba(255, 255, 255);
+    flex-shrink: 0;
+}
+
+.card.port-swigger h2 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+/* New styles for Port Swigger section */
+.card.port-swigger p {
+    color: white;
+    font-size: 22px;
+    margin-left: 100px; /* Aligns with the heading (logo width + gap) */
+    line-height: 1.5;
+    margin-top: 5px;
+}
+.card.port-swigger img{
+    padding: 10px 0;
+}
+
+.card.port-swigger a {
+    display: block;
+    padding: 10px 0;
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card.port-swigger a:hover {
+    color: rgba(100, 164, 242, 0.921);
+}
+
+.exploit-card {
+    align-items: flex-start !important;
+    padding: 20px !important;
+}
+
+.exploit-card .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.exploit-content {
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.exploit-content h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.exploit-content a {
+    display: inline-block !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    font-size: 25px;
+    color: white;
+    padding: 10px 0;
+}
+
+.exploit-content a:hover {
+    color: rgba(108, 169, 244, 0.921);
+    text-decoration: none;
+}
+@media  screen and (max-width:1024px) {
+    .container-fluid{
+        display: block ;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .nav a{
+        padding: 5px !important;
+        padding-top: 15px !important;
+      }
+      .card {
+        width: 85%;
+    }
+    .google-dork a {
+        width: 30%;
+    }
+    .exploits a {
+        width: 25%;
+        margin-left: 15px;
+    }
+    .heading-Education{
+        width: 60%;
+    }
+   }
+
+   @media  screen and (max-width:520px){
+    .card{
+        width: 95%;
+    }
+    .card a{
+        font-size: 22px;
+    }
+    .institution-text h2{
+        font-size: 22px;
+    }
+    .institution-text h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .institution-header img{
+        height: 60px;
+        width: 60px;
+    }
+    .institution-header{
+        gap: 10px;
+    }
+    .heading-Education{
+        width: 80%;
+    }
+    .google-dork a {
+        width: 60%;
+    }
+    .exploits a {
+        width: 40%;
+    }
+    .exploits a {
+        width: 40%;
+        margin-left: 10px;
+    }
+    .card.google-dork {
+        padding: 15px;
+    }
+    
+    .institution-logo {
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+    }
+    
+    .card.google-dork h2 {
+        font-size: 20px;
+    }
+    
+    .card.google-dork a {
+        margin-left: 80px; /* Adjusted for smaller logo */
+        font-size: 20px;
+    }
+    .google-dork a {
+        width: 40%;
+    }
+    .card.google-dork p {
+        margin-left: 80px; /* Adjusted for smaller logo on mobile */
+        font-size: 18px;
+    }
+    .heading-achievements {
+        font-weight: 800;
+        font-size: 20px;
+    }
+   }
+
+   @media  screen and (max-width:520px){
+    .heading-Education{
+        width: 85%;
+        margin-left: 10px;
+    }
+   }
+
+@media  screen and (max-width:520px){
+    .google-dork a {
+        width: 65%;
+    }
+   }
